@@ -75,7 +75,7 @@ label {
   align-items: center;
   padding: 8px 16px;
   border-radius: 2px;
-  font-size: 14px;
+  font-size: 12px;
   cursor: pointer;
   background-color: #9e57b1;
   color: white;
@@ -84,7 +84,7 @@ label {
 
 .button:hover, button:hover {
   opacity: 0.8;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 .button:disabled, button:disabled {
