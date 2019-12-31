@@ -31,5 +31,11 @@ injizieren
       adress: ''
     });
   }
+onSubmit(customerDate){
+  //Process checkout data here 
+  console.warn('Your order has been submited' , customerDate);
 
+  this.items = this.cartService.clearCart();
+  this.checkoutForm.reset();
+}
 }
